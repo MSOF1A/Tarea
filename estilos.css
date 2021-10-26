@@ -1,0 +1,275 @@
+.background-color{
+    position: absolute;
+    width: 1422px;
+    height: 880px;
+    left: 0px;
+    top: -110px;
+    background: rgb(165, 13, 196);  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to top, #cf09c2da, rgb(170, 6, 202));  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to top, hsl(283, 84%, 70%), #b604da); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     border-radius: 0%;
+     transform: rotate(180deg);
+}
+.contenedorTarjetas{
+    position: absolute;
+    width: 650px;
+    height: 1010px;
+    left: 400px;
+    top: -110px;
+    background: #9833f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ac00e0, #9e4ce6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #740b6b, #8412e7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5%;
+    transform: rotate(-90deg);
+   
+}
+@media (min-width: 280px ) and (max-width: 653px ){
+    .background-color{
+        position: absolute;
+        width: 555px;
+        height: 1575px;
+        left: 0px;
+        top: -110px;
+        background: rgb(165, 13, 196);  /* fallback for old browsers */
+         background: -webkit-linear-gradient(to top, #cf09c2da, rgb(170, 6, 202));  /* Chrome 10-25, Safari 5.1-6 */
+         background: linear-gradient(to top, hsl(283, 84%, 70%), #b604da); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         border-radius: 0%;
+         transform: rotate(180deg);
+    }
+    .contenedorTarjetas{
+        position: absolute;
+        width: 1410px;
+        height: 420px;
+        left: -440px;
+        top: 490px;
+        background: #9833f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ac00e0, #9e4ce6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #740b6b, #8412e7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 5%;
+        transform: rotate(-90deg);
+       
+    }
+}
+
+.tarjeta1{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    top: 185px;
+    left: 250px;
+    background-color: seashell;
+    border-radius: 15px;
+    border: 3px solid rgb(113, 0, 158);
+    transition: 0.5seg;
+}
+.tarjeta1:hover{
+    transform: scale(1.2);
+    background: violet;
+    box-shadow: 2px 2px 2px white;
+}
+.logoTarjeta1 img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 100px;
+    border-radius: 100%;
+
+}
+.logoTarjeta1 h1{
+    justify-content: center;
+    text-align: center;
+}
+.logoTarjeta1 p{
+    justify-content: center;
+    text-align: left;
+    font-family: 'Yaldevi', sans-serif;
+    
+}
+.logoTarjeta1 h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.tarjeta2{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    top: -250px;
+    left: 550px;
+    background-color: seashell;
+    border-radius: 15px;
+    border: 3px solid hsl(283, 9%, 52%);
+    z-index: 2;
+}
+.tarjeta2:hover{
+    transform: scale(1.2);
+    background: violet;
+    box-shadow: 2px 2px 2px white;
+}
+.logoTarjeta2 img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 125px;
+    border-radius: 100%;
+
+}
+.logoTarjeta2 h1{
+    justify-content: center;
+    text-align: center;
+}
+.logoTarjeta2 p{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    
+}
+.logoTarjeta2 h2{
+    justify-content: center;
+    text-align: center;
+}
+.tarjeta3{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    top: -680px;
+    left: 902px;
+    background-color: seashell;
+    border-radius: 15px;
+    border: 3px solid rgb(113, 0, 158);
+    z-index: 1;
+}
+.tarjeta3:hover{
+    transform: scale(1.2);
+    background: violet;
+    box-shadow: 2px 2px 2px white;
+}
+.logoTarjeta3 img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    left: 100px;
+    border-radius: 100%;
+
+}
+.logoTarjeta3 h1{
+    justify-content: center;
+    text-align: center;
+}
+.logoTarjeta3 p{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    
+}
+.logoTarjeta3 h2{
+    justify-content: center;
+    text-align: center;
+}
+@media (min-width: 280px ) and (max-width: 653px ){
+    .tarjeta1{
+        position: relative;
+        width: 350px;
+        height: 400px;
+        top: 10px;
+        left: 75px;
+        background-color: seashell;
+        border-radius: 15px;
+        border: 3px solid rgb(113, 0, 158);
+    }
+    .logoTarjeta1 img{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 10px;
+        left: 130px;
+        border-radius: 100%;
+    
+    }
+    .logoTarjeta1 h1{
+        justify-content: center;
+        text-align: center;
+    }
+    .logoTarjeta1 p{
+        justify-content: center;
+        text-align: left;
+        font-family: 'Yaldevi', sans-serif;
+        
+    }
+    .logoTarjeta1 h2{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .tarjeta2{
+        position: relative;
+        width: 350px;
+        height: 400px;
+        top: 50px;
+        left: 75px;
+        background-color: seashell;
+        border-radius: 15px;
+        border: 3px solid rgb(113, 0, 158);
+        z-index: 2;
+    }
+    .logoTarjeta2 img{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 20px;
+        left: 125px;
+        border-radius: 100%;
+    
+    }
+    .logoTarjeta2 h1{
+        justify-content: center;
+        text-align: center;
+    }
+    .logoTarjeta2 p{
+        justify-content: center;
+        text-align: center;
+        font-family: 'Yaldevi', sans-serif;
+        
+    }
+    .logoTarjeta2 h2{
+        justify-content: center;
+        text-align: center;
+    }
+    .tarjeta3{
+        position: relative;
+        width: 350px;
+        height: 400px;
+        top: 90px;
+        left: 75px;
+        background-color: seashell;
+        border-radius: 15px;
+        border: 3px solid rgb(113, 0, 158);
+        z-index: 1;
+    }
+    .logoTarjeta3 img{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 20px;
+        left: 125px;
+        border-radius: 100%;
+    
+    }
+    .logoTarjeta3 h1{
+        justify-content: center;
+        text-align: center;
+    }
+    .logoTarjeta3 p{
+        justify-content: center;
+        text-align: center;
+        font-family: 'Yaldevi', sans-serif;
+        
+    }
+    .logoTarjeta3 h2{
+        justify-content: center;
+        text-align: center;
+    }
+}
